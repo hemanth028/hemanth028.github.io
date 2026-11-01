@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- SEO: edit title and description if you change your target role -->
+  <title>Hemanth S | ASIC/FPGA Design Verification Engineer</title>
+  <meta name="description" content="Portfolio of Hemanth S, final-year ECE student specializing in ASIC/FPGA design verification with SystemVerilog, UVM, SVA and AMBA protocols. e-YSIP 2026 at IIT Bombay, AIR 5 in eYRC." />
+  <meta name="theme-color" content="#080a12" />
+
+  <!-- Free fonts and icons (no paid services) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ================= NAVIGATION ================= -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-inner" aria-label="Main navigation">
+      <a href="#home" class="logo" aria-label="Hemanth S, home">HS<span>.</span></a>
+      <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#education" class="nav-link">Education</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#experience" class="nav-link">Internship</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#in-progress" class="nav-link">In Progress</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#hobbies" class="nav-link">Hobbies</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ================= HERO ================= -->
+    <section id="home" class="hero">
+      <div class="hero-glow" aria-hidden="true"></div>
+      <div class="container hero-grid">
+        <div class="hero-text reveal">
+          <p class="eyebrow"><span class="dot"></span> Open to internships &amp; entry-level roles</p>
+          <h1>Hi, I'm <span class="gradient-text">Hemanth S</span></h1>
+          <h2 class="role">ASIC / FPGA Design Verification Engineer</h2>
+          <p class="intro">
+            Final-year ECE student who builds UVM and SystemVerilog verification environments from scratch and drives
+            designs to 100% functional coverage. Selected for e-YSIP 2026 at IIT Bombay and AIR 5 in eYRC.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View My Work <i class="fa-solid fa-arrow-down"></i></a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+            <a href="https://drive.google.com/file/d/1ItxOBx66oYJDT-3sgW-4BS72lL3tbxXc/view?usp=sharing" class="btn btn-outline" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-file-lines"></i> View Resume</a>
+          </div>
+          <div class="socials">
+            <a href="https://github.com/hemanth028" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/hemanth-s-775618290/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:hemanth.s28925@gmail.com" aria-label="Email Hemanth"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+
+        <!-- Decorative IC package illustration (replaces the profile photo) -->
+        <div class="hero-visual reveal" aria-hidden="true">
+          <svg class="ic-chip" viewBox="0 0 320 320" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+              <linearGradient id="dieGrad" x1="0" y1="0" x2="1" y2="1">
+                <stop offset="0" stop-color="#7c6cff" stop-opacity="0.55" />
+                <stop offset="1" stop-color="#3ea6ff" stop-opacity="0.35" />
+              </linearGradient>
+            </defs>
+            <g class="pins">
+              <line x1="80" y1="46" x2="240" y2="46" stroke-dasharray="9 13" />
+              <line x1="80" y1="274" x2="240" y2="274" stroke-dasharray="9 13" />
+              <line x1="46" y1="80" x2="46" y2="240" stroke-dasharray="9 13" />
+              <line x1="274" y1="80" x2="274" y2="240" stroke-dasharray="9 13" />
+            </g>
+            <rect class="pkg" x="62" y="62" width="196" height="196" rx="18" />
+            <rect class="die" x="100" y="100" width="120" height="120" rx="10" fill="url(#dieGrad)" />
+            <g class="die-grid">
+              <path d="M100 130h120M100 160h120M100 190h120M130 100v120M160 100v120M190 100v120" />
+            </g>
+            <text x="160" y="168" text-anchor="middle" class="chip-text">RTL</text>
+            <circle cx="72" cy="72" r="3.5" class="pin1" />
+          </svg>
+        </div>
+      </div>
+
+      <div class="container stats reveal">
+        <div class="stat"><strong>100%</strong><span>Functional coverage on 2 verification projects</span></div>
+        <div class="stat"><strong>13×</strong><span>System speedup, Kalman Filter accelerator</span></div>
+        <div class="stat"><strong>AIR 5</strong><span>eYRC, IIT Bombay</span></div>
+        <div class="stat"><strong>6</strong><span>RTL design &amp; verification projects</span></div>
+      </div>
+    </section>
+
+    <!-- ================= ABOUT ================= -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span>01.</span> About Me</h2>
+        <div class="about-grid">
+          <div class="about-text reveal">
+            <p>
+              I'm a final-year Electronics &amp; Communication Engineering student specializing in
+              <strong>ASIC/FPGA Design Verification</strong>. I work hands-on with SystemVerilog, UVM,
+              Coverage-Driven Verification (CDV) and AMBA protocol integration (AXI4, AHB, APB).
+            </p>
+            <p>
+              I have built and verified multiple synthesizable RTL designs, reaching up to 100% functional coverage using
+              constrained-random and assertion-based (SVA) methodologies.
+            </p>
+            <p>
+              I was selected for <strong>e-YSIP 2026 at IIT Bombay</strong> and secured
+              <strong>AIR 5 in eYRC (e-Yantra Robotics Competition)</strong>, IIT Bombay.
+            </p>
+          </div>
+          <div class="about-card reveal">
+            <h3>Quick Facts</h3>
+            <ul>
+              <li><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu</li>
+              <li><i class="fa-solid fa-graduation-cap"></i> B.E. ECE, SSN College of Engineering</li>
+              <li><i class="fa-solid fa-bullseye"></i> Focus: Design Verification (UVM / SVA / CDV)</li>
+              <li><i class="fa-solid fa-envelope"></i> hemanth.s28925@gmail.com</li>
+              <li><i class="fa-solid fa-phone"></i> +91-86376-32162</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EDUCATION ================= -->
+    <section id="education" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal"><span>02.</span> Education</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <span class="date">2023 – 2027</span>
+              <h3>Bachelor of Engineering in Electronics and Communication (B.E. ECE)</h3>
+              <p class="org">SSN College of Engineering · Chennai, Tamil Nadu</p>
+              <p class="highlight">CGPA: 8.22 / 10</p>
+            </div>
+          </article>
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <span class="date">2021 – 2023</span>
+              <h3>Higher Secondary Certificate (HSC)</h3>
+              <p class="org">Sri Sai Matric Higher Secondary School · Tiruppur, Tamil Nadu</p>
+              <p class="highlight">Score: 97%</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SKILLS ================= -->
+    <section id="skills" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span>03.</span> Technical Skills</h2>
+        <div class="skills-grid">
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-microchip"></i> Hardware Description Languages</h3>
+            <div class="badges"><span>Verilog</span><span>SystemVerilog</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-vial-circle-check"></i> Verification Methodologies</h3>
+            <div class="badges"><span>UVM</span><span>Assertions (SVA)</span><span>Clock Domain Crossing (CDC)</span><span>Coverage-Driven Verification</span><span>Constrained-Random Stimulus</span><span>Functional &amp; Code Coverage</span><span>Scoreboarding</span><span>Waveform Debugging</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-code"></i> Programming Languages</h3>
+            <div class="badges"><span>C++</span><span>Python</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-diagram-project"></i> Architectures</h3>
+            <div class="badges"><span>RISC-V (RV32I)</span><span>Cache Memory</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-plug"></i> Protocols / Interfaces</h3>
+            <div class="badges"><span>AXI4</span><span>AHB</span><span>APB</span><span>UART</span><span>SPI</span><span>Wishbone</span></div>
+            <p class="skill-note">Verified via SV/UVM testbenches</p>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-screwdriver-wrench"></i> EDA Tools &amp; Simulators</h3>
+            <div class="badges"><span>QuestaSim</span><span>ModelSim</span><span>Xilinx Vivado</span><span>Intel Quartus Prime Lite</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-brands fa-git-alt"></i> Developer Tools</h3>
+            <div class="badges"><span>Git</span><span>Vim / GVim</span><span>Linux (Basics)</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-memory"></i> FPGA &amp; SoC Design</h3>
+            <div class="badges"><span>FPGA SoC Integration</span><span>AXI DMA / AXI-Stream</span><span>Fixed-point Design</span><span>Timing Closure</span></div>
+          </div>
+          <div class="skill-card reveal">
+            <h3><i class="fa-solid fa-people-group"></i> Soft Skills</h3>
+            <div class="badges"><span>Team Work</span><span>Adaptability</span><span>Time Management</span><span>Continuous Learning</span><span>Communication</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= EXPERIENCE / INTERNSHIP ================= -->
+    <section id="experience" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal"><span>04.</span> Internship</h2>
+        <div class="timeline">
+          <article class="timeline-item reveal">
+            <div class="timeline-marker"></div>
+            <div class="card">
+              <div class="card-head">
+                <span class="date">May 2026 – Jul 2026</span>
+                <span class="pill"><i class="fa-regular fa-clock"></i> Duration: approx. 3 months</span>
+              </div>
+              <h3>e-YSIP 2026 Intern · RISC-V SoC &amp; Kalman Filter Hardware Accelerator</h3>
+              <p class="org">e-Yantra, IIT Bombay · Mumbai, India · Team of four</p>
+              <ul class="bullets">
+                <li>Collaborated in a team of four to co-design an FPGA SoC on a Xilinx PYNQ board, integrating an ARM Cortex host, an RV32I RISC-V soft core, and a custom fixed-point Kalman Filter accelerator mapped via AXI DMA and AXI-Stream.</li>
+                <li>Integrated the RV32I processor with system IPs and implemented fixed-point matrix multiplication logic for Kalman Filter computations, achieving a <strong>13× system speedup</strong> over software execution.</li>
+                <li>Validated the integrated system against a software golden model, contributing to the Kalman Filter accelerator block design while focusing primarily on the RISC-V controller implementation.</li>
+              </ul>
+              <div class="tags"><span>RV32I</span><span>Xilinx PYNQ</span><span>AXI DMA</span><span>AXI-Stream</span><span>Fixed-point</span></div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PROJECTS ================= -->
+    <section id="projects" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span>05.</span> Featured Projects</h2>
+        <div class="projects-grid">
+
+          <!-- 1. AXI4 -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-right-left project-icon"></i>
+              <span class="date">Jun 2026 – Jul 2026</span>
+            </div>
+            <h3>AXI4 Master Bridge · UVM Verification</h3>
+            <p class="project-desc">A parameterizable AXI4 Master Bridge in RTL Verilog that converts a simple user-side streaming interface into burst-based AXI4 transactions, verified with a UVM testbench and SVA.</p>
+            <ul class="bullets">
+              <li>Spans all five AXI4 channels (AW/W/B/AR/R) with INCR, FIXED and WRAP bursts.</li>
+              <li>Splits large transfers so no burst crosses a 4KB boundary; handles unaligned addresses by shifting data and masking <code>WSTRB</code> on the first beat.</li>
+              <li>Read-after-write hazard protection stalls conflicting reads until the write response completes; <code>MAX_OUTSTANDING</code> throttles issued transactions.</li>
+              <li>SVA module bound into the DUT checks handshake stability, FIFO overflow/underflow, 4KB protection and strobe masking.</li>
+              <li>Reached <strong>100% functional coverage</strong> (covergroups and crosses); 12 of 15 assertions covered, the rest vacuous.</li>
+            </ul>
+            <div class="tags"><span>Verilog</span><span>UVM</span><span>SVA</span><span>AMBA AXI4</span><span>Questa Sim</span><span>Vivado</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/AXI4-Master-Bridge-UVM-Verification" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- 2. SPI -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-arrows-spin project-icon"></i>
+              <span class="date">Aug 2026 – Sep 2026</span>
+            </div>
+            <h3>OpenCores SPI IP Verification</h3>
+            <p class="project-desc">A reusable SystemVerilog verification environment built around the existing OpenCores SPI controller IP, with Python automation.</p>
+            <ul class="bullets">
+              <li>Covers Wishbone register accesses, SPI data transfers, FIFO boundaries and CPOL/CPHA/clock-divider modes.</li>
+              <li>Class-based environment: constrained-random generator, BFM, SPI (MOSI/MISO/SCK) and Wishbone monitors, end-to-end scoreboard, SVA and functional coverage.</li>
+              <li>Python scripts for regression runs across seeds and configurations, and for log parsing (errors, warnings, pass/fail).</li>
+              <li>Achieved <strong>100% functional coverage</strong> and <strong>93.7% code coverage</strong> (98.7% statement, 95.8% branch, 92.3% toggle) in QuestaSim.</li>
+            </ul>
+            <div class="tags"><span>SystemVerilog</span><span>SVA</span><span>Functional Coverage</span><span>Wishbone</span><span>Python</span><span>QuestaSim</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/OpenCores-SPI-IP-Verification" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- 3. AHB -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-bus project-icon"></i>
+              <span class="date">AMBA AHB</span>
+            </div>
+            <h3>AHB Master · Design &amp; Verification</h3>
+            <p class="project-desc">A configurable AMBA AHB Master controller in Verilog for SoC/FPGA prototyping, developed with verification-driven development: the testbench was built alongside the RTL.</p>
+            <ul class="bullets">
+              <li>Supports reads and writes, single transfers, and incrementing (INCR4/8/16) and wrapping (WRAP4/8/16) bursts.</li>
+              <li>Master FSM with IDLE, NONSEQ, SEQ, BUSY and ERROR states; separate Address Generation Unit and Burst Controller blocks kept modular for reuse.</li>
+              <li>SystemVerilog environment with agent, BFM, generator, monitor and scoreboard.</li>
+              <li>All <strong>14 verification scenarios pass</strong>, including address wrapping, write-data pipeline timing, HREADY wait states and HRESP error handling.</li>
+            </ul>
+            <div class="tags"><span>Verilog</span><span>SystemVerilog</span><span>AMBA AHB</span><span>FSM</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/AHB-Master-Design-And-Verification" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- 4. RV32I -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-layer-group project-icon"></i>
+              <span class="date">Mar 2026</span>
+            </div>
+            <h3>RV32I 5-Stage Pipelined Processor</h3>
+            <p class="project-desc">A hazard-resilient 32-bit RISC-V processor in Verilog, built from scratch with a 5-stage pipeline.</p>
+            <ul class="bullets">
+              <li>Pipeline stages IF, ID, EX, MEM, WB covering the RV32I base integer instruction set.</li>
+              <li>Forwarding unit for RAW hazards, hazard detection unit for load-use stalls, and flush logic for taken branches and jumps resolved in EX.</li>
+              <li>Passed all <strong>10 directed assembly tests</strong>: arithmetic, forwarding, load-use, stores, branches, JAL, JALR, writeback and flush.</li>
+              <li>Achieved physical <strong>timing closure at 100 MHz</strong> in Xilinx Vivado.</li>
+            </ul>
+            <div class="tags"><span>Verilog</span><span>Xilinx Vivado</span><span>RISC-V Directed Assembly</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/rv32i-5stage-pipelined-processor" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- 5. Async FIFO -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-clock-rotate-left project-icon"></i>
+              <span class="date">Clock Domain Crossing</span>
+            </div>
+            <h3>Asynchronous FIFO · Gray-code CDC</h3>
+            <p class="project-desc">A parameterized dual-clock FIFO in Verilog that moves data safely between two unrelated clock domains, following the architecture from Clifford Cummings' SNUG 2002 paper.</p>
+            <ul class="bullets">
+              <li>Only the pointers cross domains: Gray-coded so each step changes one bit, then passed through 2-flop synchronizers.</li>
+              <li>Full and empty are derived from the synchronized Gray pointers; writes are blocked when full and reads when empty.</li>
+              <li>Modular design: <code>fifomem</code>, <code>wptr_full</code>, <code>rptr_empty</code>, <code>sync_r2w</code>, <code>sync_w2r</code> and a top wrapper, with self-checking testbenches.</li>
+              <li>Reworked from an earlier design that crossed binary pointers without proper synchronization.</li>
+            </ul>
+            <div class="tags"><span>Verilog</span><span>CDC</span><span>Gray Code</span><span>Questa / ModelSim</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/async-fifo-gray-code-cdc" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+          <!-- 6. Maze Solver -->
+          <article class="project-card reveal">
+            <div class="project-top">
+              <i class="fa-solid fa-robot project-icon"></i>
+              <span class="date">eYRC 2025–26</span>
+            </div>
+            <h3>FPGA Maze Solver Bot · e-Yantra</h3>
+            <p class="project-desc">An autonomous maze-solving robot implemented entirely in Verilog on an FPGA, built for the e-Yantra Robotics Competition. Team project; secured <strong>AIR 5</strong> at the eYRC finals.</p>
+            <ul class="bullets">
+              <li>Bare-metal Verilog with no IP cores: PWM motor control, ultrasonic and IR sensor interfaces, UART and custom control logic.</li>
+              <li>Sensor fusion of ultrasonic sensors (0°, 90°, 180°) and 45° side IR sensors to reduce blind spots and handle noise.</li>
+              <li>Custom maze-solving algorithm and control logic in place of PID, aimed at stability and low computation overhead.</li>
+              <li>Hardware: Intel DE0-Nano (Cyclone IV E), N20 motors with encoders, Bluetooth UART link.</li>
+            </ul>
+            <div class="tags"><span>Verilog</span><span>FPGA</span><span>UART</span><span>PWM</span><span>Quartus Prime Lite</span><span>ModelSim</span></div>
+            <div class="project-links">
+              <a href="https://github.com/hemanth028/Eyantra-2025-26-Maze-Solver" class="repo-link" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> View on GitHub</a>
+            </div>
+          </article>
+
+        </div>
+        <p class="more-link reveal"><a href="https://github.com/hemanth028" target="_blank" rel="noopener noreferrer">See all repositories on GitHub <i class="fa-solid fa-arrow-up-right-from-square"></i></a></p>
+      </div>
+    </section>
+
+    <!-- ================= CURRENTLY IN PROGRESS ================= -->
+    <section id="in-progress" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal"><span>06.</span> Currently in Progress</h2>
+        <article class="progress-card reveal">
+          <span class="live-badge"><span class="dot"></span> In progress</span>
+          <h3>High Performance CNN Inference Engine on FPGA</h3>
+          <p>The idea: real-time traffic sign recognition on a Xilinx PYNQ-Z2 FPGA, with a direct hardware path from camera capture to CNN classification. Image acquisition, preprocessing and inference all run in the programmable logic instead of on a general-purpose processor, for low-latency use in driver assistance and autonomous navigation.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ================= CERTIFICATIONS & ACHIEVEMENTS ================= -->
+    <section id="certifications" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span>07.</span> Certifications &amp; Achievements</h2>
+
+        <h3 class="sub-title reveal">Achievements</h3>
+        <div class="cards-row">
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-trophy"></i>
+            <h4>AIR 5, eYRC</h4>
+            <p>e-Yantra Robotics Competition, IIT Bombay</p>
+          </div>
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-award"></i>
+            <h4>Selected for e-YSIP 2026</h4>
+            <p>e-Yantra Summer Internship Programme, IIT Bombay</p>
+          </div>
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-chart-line"></i>
+            <h4>13× System Speedup</h4>
+            <p>Kalman Filter hardware accelerator vs. software</p>
+          </div>
+        </div>
+
+        <h3 class="sub-title reveal">Certifications</h3>
+        <div class="cards-row">
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-certificate"></i>
+            <h4>Digital VLSI Testing (Elite)</h4>
+            <p>NPTEL · IIT Kharagpur · Jan–Apr 2025 · Score 71%</p>
+          </div>
+          <div class="mini-card reveal">
+            <i class="fa-brands fa-git-alt"></i>
+            <h4>Introduction to Git and GitHub</h4>
+            <p>Google via Coursera · Jul 2026</p>
+            <a class="cert-link" href="https://coursera.org/verify/650B9ADKFHH1" target="_blank" rel="noopener noreferrer">Verify certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          <!--
+            IBM "Hands-on Introduction to Linux Commands and Shell Scripting" (Feb 14, 2024) is left out on purpose:
+            the certificate is issued to "Coursera Learner", not "Hemanth S". If it is yours, uncomment this card.
+          <div class="mini-card reveal">
+            <i class="fa-brands fa-linux"></i>
+            <h4>Hands-on Introduction to Linux Commands and Shell Scripting</h4>
+            <p>IBM via Coursera · Feb 2024</p>
+            <a class="cert-link" href="https://coursera.org/verify/ULQVEZFGBXYG" target="_blank" rel="noopener noreferrer">Verify certificate <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+          </div>
+          -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= HOBBIES ================= -->
+    <section id="hobbies" class="section alt">
+      <div class="container">
+        <h2 class="section-title reveal"><span>08.</span> Beyond Engineering</h2>
+        <div class="cards-row">
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-chess-knight"></i>
+            <h4>Chess</h4>
+            <p>I play chess, and I enjoy the planning and pattern recognition it demands.</p>
+          </div>
+          <div class="mini-card reveal">
+            <i class="fa-solid fa-people-group"></i>
+            <h4>Time with Friends</h4>
+            <p>I like spending time with friends and unwinding away from the screen.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACT ================= -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2 class="section-title reveal"><span>09.</span> Get In Touch</h2>
+        <div class="contact-grid">
+          <div class="contact-info reveal">
+            <p>I'm looking for design verification opportunities. Send a message and I'll get back to you.</p>
+            <ul>
+              <li><i class="fa-solid fa-envelope"></i> <a href="mailto:hemanth.s28925@gmail.com">hemanth.s28925@gmail.com</a></li>
+              <li><i class="fa-solid fa-phone"></i> <a href="tel:+918637632162">+91-86376-32162</a></li>
+              <li><i class="fa-solid fa-location-dot"></i> Chennai, Tamil Nadu</li>
+              <li><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/hemanth-s-775618290/" target="_blank" rel="noopener noreferrer">LinkedIn</a></li>
+              <li><i class="fa-brands fa-github"></i> <a href="https://github.com/hemanth028" target="_blank" rel="noopener noreferrer">GitHub</a></li>
+            </ul>
+          </div>
+
+          <form id="contactForm" class="contact-form reveal" novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" autocomplete="name" required />
+              <small class="error" id="nameError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" autocomplete="email" required />
+              <small class="error" id="emailError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" required />
+              <small class="error" id="subjectError" role="alert"></small>
+            </div>
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+              <small class="error" id="messageError" role="alert"></small>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+            <p class="form-status" id="formStatus" role="status" aria-live="polite"></p>
+            <p class="form-note">
+              <i class="fa-solid fa-circle-info"></i>
+              Note: a static site cannot send email by itself. This form validates your input and opens your email app
+              with the message filled in. For direct delivery, connect a backend or a form service such as Formspree or Netlify Forms.
+            </p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <p>&copy; <span id="year"></span> Hemanth S. All rights reserved.</p>
+      <div class="socials small">
+        <a href="https://github.com/hemanth028" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/hemanth-s-775618290/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="mailto:hemanth.s28925@gmail.com" aria-label="Email Hemanth"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-chevron-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
